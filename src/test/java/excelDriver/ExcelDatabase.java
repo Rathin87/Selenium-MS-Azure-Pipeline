@@ -19,7 +19,12 @@ public class ExcelDatabase {
 	@DataProvider(name = "ExcelData")
 	public Object[][] Getdata() throws IOException {
 		ArrayList<String> ar = new ArrayList<String>();
-		FileInputStream Fis = new FileInputStream("D:\\DataDriven\\ExcelHandlling.xlsx");
+		// /DataProviderwithExcel/ExcelHandlling.xlsx
+		//System.out.println("Project path is "+System.getProperty("user.dir"));
+		//  C:\Users\Rathin Saha\eclipse-workspace\DataProviderwithExcel
+		String testDataFile  = System.getProperty("user.dir"+"\\ExcelHandlling.xlsx");
+		//File src = new File(testDataFile)
+		FileInputStream Fis = new FileInputStream(testDataFile);
 		XSSFWorkbook book = new XSSFWorkbook(Fis);
 		XSSFSheet sheetname = book.getSheetAt(0);
 		int rowCount = sheetname.getPhysicalNumberOfRows();
@@ -28,6 +33,7 @@ public class ExcelDatabase {
 		Object data[][] = new Object[rowCount - 1][colcount];
 		for (int i = 0; i < colcount; i++) {
 			row = sheetname.getRow(i + 1);
+			System.out.println("Value of Row is " + row );
 			for (int j = 0; j < colcount; j++) {
 				if (row != null) {
 					// Access cells safely
