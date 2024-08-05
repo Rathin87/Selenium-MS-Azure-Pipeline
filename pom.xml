@@ -28,9 +28,11 @@
 			<version>2.20.0</version>
 		</dependency>
 		<dependency>
-			<groupId>org.apache.logging.log4j</groupId>
-			<artifactId>log4j-core</artifactId>
-			<version>2.20.0</version>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>7.7.1</version> <!-- Use the latest version or the version
+			you need -->
+			<scope>test</scope>
 		</dependency>
 	</dependencies>
 	<build>
