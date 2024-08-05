@@ -19,12 +19,9 @@ public class ExcelDatabase {
 	@DataProvider(name = "ExcelData")
 	public Object[][] Getdata() throws IOException {
 		ArrayList<String> ar = new ArrayList<String>();
-		// /DataProviderwithExcel/ExcelHandlling.xlsx
-		//System.out.println("Project path is "+System.getProperty("user.dir"));
-		//  C:\Users\Rathin Saha\eclipse-workspace\DataProviderwithExcel
-		String testDataFile  = System.getProperty("user.dir"+"\\ExcelHandlling.xlsx");
+		String testDataFile  = System.getProperty("user.dir");
 		//File src = new File(testDataFile)
-		FileInputStream Fis = new FileInputStream(testDataFile);
+		FileInputStream Fis = new FileInputStream(testDataFile+"\\ExcelHandlling.xlsx");
 		XSSFWorkbook book = new XSSFWorkbook(Fis);
 		XSSFSheet sheetname = book.getSheetAt(0);
 		int rowCount = sheetname.getPhysicalNumberOfRows();
