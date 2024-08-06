@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-06T00:39:13 IST" name="Suite" finished-at="2024-08-06T00:39:14 IST" duration-ms="793">
+  <suite started-at="2024-08-06T15:18:10 IST" name="Suite" finished-at="2024-08-06T15:18:10 IST" duration-ms="496">
     <groups>
     </groups>
-    <test started-at="2024-08-06T00:39:13 IST" name="dataProvider" finished-at="2024-08-06T00:39:14 IST" duration-ms="793">
+    <test started-at="2024-08-06T15:18:10 IST" name="dataProvider" finished-at="2024-08-06T15:18:10 IST" duration-ms="496">
       <class name="excelDriver.dataProvider">
-        <test-method signature="PracticeExcel(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:excelDriver.dataProvider@72a7c7e0]" started-at="2024-08-06T00:39:14 IST" name="PracticeExcel" data-provider="ExcelData" finished-at="2024-08-06T00:39:14 IST" duration-ms="11" status="PASS">
+        <test-method signature="PracticeExcel(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:excelDriver.dataProvider@72a7c7e0]" started-at="2024-08-06T15:18:10 IST" name="PracticeExcel" data-provider="ExcelData" finished-at="2024-08-06T15:18:10 IST" duration-ms="10" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -33,7 +33,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PracticeExcel -->
-        <test-method signature="PracticeExcel(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:excelDriver.dataProvider@72a7c7e0]" started-at="2024-08-06T00:39:14 IST" name="PracticeExcel" data-provider="ExcelData" finished-at="2024-08-06T00:39:14 IST" duration-ms="1" status="PASS">
+        <test-method signature="PracticeExcel(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:excelDriver.dataProvider@72a7c7e0]" started-at="2024-08-06T15:18:10 IST" name="PracticeExcel" data-provider="ExcelData" finished-at="2024-08-06T15:18:10 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -59,7 +59,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PracticeExcel -->
-        <test-method signature="PracticeExcel(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:excelDriver.dataProvider@72a7c7e0]" started-at="2024-08-06T00:39:14 IST" name="PracticeExcel" data-provider="ExcelData" finished-at="2024-08-06T00:39:14 IST" duration-ms="2" status="PASS">
+        <test-method signature="PracticeExcel(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:excelDriver.dataProvider@72a7c7e0]" started-at="2024-08-06T15:18:10 IST" name="PracticeExcel" data-provider="ExcelData" finished-at="2024-08-06T15:18:10 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
