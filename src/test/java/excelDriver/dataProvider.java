@@ -13,8 +13,8 @@ public class dataProvider {
 
 	@Test(dataProvider="ExcelData",dataProviderClass =ExcelDatabase.class)
 	public void PracticeExcel(String P1, String P2, String P3, String P4) throws IOException {
-		//Object[][] data =	db.Getdata();
-	//	db.Getdata(firstData +seonddata + thirddata+ fourthdata);
+		
+		
 		System.out.println(P1 +P2 + P3+ P4);
 	
 

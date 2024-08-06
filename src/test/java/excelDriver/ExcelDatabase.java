@@ -41,6 +41,7 @@ public class ExcelDatabase {
 				// Further processing
 				else
 					// Handle case where row is null
+					System.out.println("Null is displaying which is not expected");
 					System.out.println("Row is null");
 
 			}
