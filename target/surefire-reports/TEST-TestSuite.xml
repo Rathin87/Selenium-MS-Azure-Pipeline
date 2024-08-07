@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="1.053" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="1.349" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
-    <property name="sun.java.command" value="C:\Users\Rathin Saha\AppData\Local\Temp\surefire928750490892852273\surefirebooter-20240806160330104_3.jar C:\Users\Rathin Saha\AppData\Local\Temp\surefire928750490892852273 2024-08-06T16-03-29_982-jvmRun1 surefire-20240806160330104_1tmp surefire_0-20240806160330104_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Rathin Saha\AppData\Local\Temp\surefire2175956809470882193\surefirebooter-20240807210306321_3.jar C:\Users\Rathin Saha\AppData\Local\Temp\surefire2175956809470882193 2024-08-07T21-03-06_180-jvmRun1 surefire-20240807210306321_1tmp surefire_0-20240807210306321_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\Rathin Saha\eclipse-workspace\DataProviderwithExcel\target\test-classes;C:\Users\Rathin Saha\eclipse-workspace\DataProviderwithExcel\target\classes;C:\Users\Rathin Saha\.m2\repository\org\apache\poi\poi-ooxml\5.3.0\poi-ooxml-5.3.0.jar;C:\Users\Rathin Saha\.m2\repository\org\apache\poi\poi-ooxml-lite\5.3.0\poi-ooxml-lite-5.3.0.jar;C:\Users\Rathin Saha\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.1\xmlbeans-5.2.1.jar;C:\Users\Rathin Saha\.m2\repository\org\apache\commons\commons-compress\1.26.2\commons-compress-1.26.2.jar;C:\Users\Rathin Saha\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\Rathin Saha\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;C:\Users\Rathin Saha\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\Rathin Saha\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Rathin Saha\.m2\repository\org\apache\poi\poi\5.3.0\poi-5.3.0.jar;C:\Users\Rathin Saha\.m2\repository\commons-codec\commons-codec\1.17.0\commons-codec-1.17.0.jar;C:\Users\Rathin Saha\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Rathin Saha\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\Rathin Saha\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;C:\Users\Rathin Saha\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\Rathin Saha\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Rathin Saha\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Rathin Saha\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Rathin Saha\AppData\Local\Temp\surefire928750490892852273\surefirebooter-20240806160330104_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Rathin Saha\AppData\Local\Temp\surefire2175956809470882193\surefirebooter-20240807210306321_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.2+13-LTS-58"/>
@@ -58,7 +58,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="PracticeExcel[Login, sdf, ecv, frf](1)" classname="excelDriver.dataProvider" time="0.013">
+  <testcase name="PracticeExcel[Login, sdf, ecv, frf](1)" classname="excelDriver.dataProvider" time="0.002">
     <system-out><![CDATA[Value of Row is <xml-fragment r="2" spans="1:4" x14ac:dyDescent="0.35" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:x14ac="http://schemas.microsoft.com/office/spreadsheetml/2009/9/ac" xmlns:xr="http://schemas.microsoft.com/office/spreadsheetml/2014/revision" xmlns:xr2="http://schemas.microsoft.com/office/spreadsheetml/2015/revision2" xmlns:xr3="http://schemas.microsoft.com/office/spreadsheetml/2016/revision3" xmlns:main="http://schemas.openxmlformats.org/spreadsheetml/2006/main">
   <main:c r="A2" s="1" t="s">
     <main:v>4</main:v>
@@ -73,6 +73,10 @@
     <main:v>12</main:v>
   </main:c>
 </xml-fragment>
+Row is null
+Row is null
+Row is null
+Row is null
 Value of Row is <xml-fragment r="3" spans="1:4" x14ac:dyDescent="0.35" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:x14ac="http://schemas.microsoft.com/office/spreadsheetml/2009/9/ac" xmlns:xr="http://schemas.microsoft.com/office/spreadsheetml/2014/revision" xmlns:xr2="http://schemas.microsoft.com/office/spreadsheetml/2015/revision2" xmlns:xr3="http://schemas.microsoft.com/office/spreadsheetml/2016/revision3" xmlns:main="http://schemas.openxmlformats.org/spreadsheetml/2006/main">
   <main:c r="A3" s="1" t="s">
     <main:v>5</main:v>
@@ -87,6 +91,10 @@ Value of Row is <xml-fragment r="3" spans="1:4" x14ac:dyDescent="0.35" xmlns:r="
     <main:v>12</main:v>
   </main:c>
 </xml-fragment>
+Row is null
+Row is null
+Row is null
+Row is null
 Value of Row is <xml-fragment r="4" spans="1:4" x14ac:dyDescent="0.35" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:x14ac="http://schemas.microsoft.com/office/spreadsheetml/2009/9/ac" xmlns:xr="http://schemas.microsoft.com/office/spreadsheetml/2014/revision" xmlns:xr2="http://schemas.microsoft.com/office/spreadsheetml/2015/revision2" xmlns:xr3="http://schemas.microsoft.com/office/spreadsheetml/2016/revision3" xmlns:main="http://schemas.openxmlformats.org/spreadsheetml/2006/main">
   <main:c r="A4" s="1" t="s">
     <main:v>6</main:v>
@@ -101,10 +109,18 @@ Value of Row is <xml-fragment r="4" spans="1:4" x14ac:dyDescent="0.35" xmlns:r="
     <main:v>11</main:v>
   </main:c>
 </xml-fragment>
+Row is null
+Row is null
+Row is null
+Row is null
 Value of Row is null
+Null is displaying which is not expected
 Row is null
+Null is displaying which is not expected
 Row is null
+Null is displaying which is not expected
 Row is null
+Null is displaying which is not expected
 Row is null
 Loginsdfecvfrf
 ]]></system-out>
@@ -114,11 +130,11 @@ SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further detail
 ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
 ]]></system-err>
   </testcase>
-  <testcase name="PracticeExcel[Landing, ghy, fg, frf](2)" classname="excelDriver.dataProvider" time="0.001">
+  <testcase name="PracticeExcel[Landing, ghy, fg, frf](2)" classname="excelDriver.dataProvider" time="0.0">
     <system-out><![CDATA[Landingghyfgfrf
 ]]></system-out>
   </testcase>
-  <testcase name="PracticeExcel[CartPage, was, dg, uio](3)" classname="excelDriver.dataProvider" time="0.001">
+  <testcase name="PracticeExcel[CartPage, was, dg, uio](3)" classname="excelDriver.dataProvider" time="0.005">
     <system-out><![CDATA[CartPagewasdguio
 ]]></system-out>
   </testcase>
